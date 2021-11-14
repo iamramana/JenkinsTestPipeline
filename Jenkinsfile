@@ -29,7 +29,7 @@ pipeline {
 
     stage('TEST RUN') {
       steps {
-        sh 'java -jar target/gs-maven-0.1.1.jar'
+        sh 'java -jar target/gs-maven-0.1.0.jar'
       }
     }
 
